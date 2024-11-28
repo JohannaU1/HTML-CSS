@@ -1,3 +1,28 @@
 body {
-    background-color:#fc0394;
+    background-color:#667C3E;
+}
+.Container{
+  display: flex;
+  flex-wrap: wrap;
+  
+   
+}
+.card{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 230px;
+    border: 1px #5e7338 solid;
+    margin: 20px;
+
+    box-shadow: 10px 15px 20px #4f602e ;
+    background-image: url(./img/pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+img{
+    height: 145px;
+    padding-top: 20px;
 }
